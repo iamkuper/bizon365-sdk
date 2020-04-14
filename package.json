@@ -1,18 +1,35 @@
 {
   "name": "bizon365-sdk",
-  "version": "1.0.0",
-  "description": "Simplified API client for [AmoCRM](https://amocrm.ru).",
+  "version": "1.0.2",
+  "description": "Simplified API client for Bizon365.",
   "main": "index.js",
   "dependencies": {
-    "amocrm-api": "^1.3.1",
     "apiapi": "^1.7.1",
-    "axios": "^0.19.2",
-    "moment": "^2.24.0"
+    "axios": "^0.19.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkuper/bizon365-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamkuper/bizon365-sdk/issues",
+    "email" : "iamkuper@yandex.ru"
+  },
+  "homepage": "https://github.com/iamkuper/bizon365-sdk#readme",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "api",
+    "bizon365",
+    "bizon",
+    "webinars",
+    "rest"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Pavel Kupreev <iamkuper@yandex.ru>",
+  "license": "MIT"
 }
